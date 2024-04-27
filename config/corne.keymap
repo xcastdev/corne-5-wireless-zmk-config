@@ -138,7 +138,7 @@
 // |   DIS 1   |   DIS 2   |   DIS 3   |   DIS 4   |   DIS 5   |          | WIN FOC L | WIN FOC D | WIN FOC U | WIN FOC R |           |
     &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)              &kp LA(H)   &kp LA(J)   &kp LA(K)   &kp LA(L)     &none
 // |   Reset   |  StatBar  | Fullscreen|   Mode    |  Restart  |          | ROT WINS  | SWP WIN P | SWP WIN N |   FLIP X  |   FLIP Y  |
-  &kp LS(LA(E)) &kp LG(LA(S)) &kp LS(LA(F)) &kp LS(LA(M)) &kp LC(LA(R))   &kp LS(LA(M)) &kp LS(LA(P)) &kp LS(LA(N)) &kp LS(LA(X)) &kp LS(LA(Y))
+  &kp LS(LA(E)) &kp LG(LA(S)) &kp LS(LA(F)) &kp LS(LA(M)) &kp LC(LA(R))   &kp LS(LA(M)) &kp LA(J)   &kp LA(K) &kp LS(LA(X)) &kp LS(LA(Y))
 //                         |||||||||||||           |           |          |   SHIFT   |   CONTRL  |  WM Layer |
                                &trans      &none       &none                &kp LSHIFT  &kp LCTRL     &mo 7
 // ------------------------------------------------------------------------------------------------------------------------------------
