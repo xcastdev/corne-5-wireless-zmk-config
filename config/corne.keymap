@@ -24,8 +24,8 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -53,12 +53,12 @@
             display-name = "Numbers";
             bindings = <
 // ------------------------------------------------------------------------------------------------------------------------------------
-// |     1     |     2     |     3     |     4     |     5     |          |     6     |     7     |     8     |     9     |     0     |
-       &kp N1     &kp N2      &kp N3      &kp N4      &kp N5                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-// |           |           |           |           |     =     |          |     *     |     4     |     5     |     6     |     +     |
-       &none       &none       &none       &none     &kp EQUAL               &kp STAR     &kp N4      &kp N5      &kp N6     &kp PLUS
-// |           |           |           |           |           |          |     /     |     1     |     2     |     3     |     -     |
-       &none       &none       &none       &none       &none                &kp SLASH     &kp N1      &kp N2      &kp N3    &kp MINUS
+// |     6     |     7     |     8     |     9     |     0     |          |     6     |     7     |     8     |     9     |     0     |
+       &kp N6     &kp N7      &kp N8      &kp N9      &kp N0                  &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
+// |     1     |     2     |     3     |     4     |     5     |          |     *     |     4     |     5     |     6     |     +     |
+       &kp N1     &kp N2      &kp N3      &kp N4      &kp N5                 &kp STAR     &kp N4      &kp N5      &kp N6     &kp PLUS
+// |           |           |           |           |     =     |          |     /     |     1     |     2     |     3     |     -     |
+       &none       &none       &none       &none     &kp EQUAL              &kp SLASH     &kp N1      &kp N2      &kp N3    &kp MINUS
 //                         | Tog Layer |           |||||||||||||          |    ENT    |     0     |     .     |
                                &tog 1      &none       &trans                &kp RET      &kp N0      &kp DOT
 // ------------------------------------------------------------------------------------------------------------------------------------
@@ -71,10 +71,10 @@
 // ------------------------------------------------------------------------------------------------------------------------------------
 // |     !     |     @     |    /#     |     $     |     %     |          |     ^     |     &     |     *     |     (     |     )     |
      &kp EXCL     &kp AT     &kp HASH     &kp DLLR   &kp PRCNT              &kp CARET    &kp AMPS   &kp STAR    &kp LPAR    &kp RPAR
-// |     `     |     /     |     {     |     [     |     (     |          |     )     |     ]     |     }     |     \     |     |     |
-     &kp GRAVE   &kp FSLH    &kp LBRC     &kp LBKT   &kp LPAR               &kp RPAR     &kp RBKT   &kp RBRC    &kp BSLH    &kp PIPE
-// |     ~     |     +     |     =     |     <     |     :     |          |     ;     |     >     |     _     |     -     |     ?     |
-     &kp TILDE   &kp PLUS    &kp EQUAL    &kp LT     &kp COLON              &kp SEMI      &kp GT    &kp UNDER   &kp MINUS   &kp QMARK
+// |     `     |     /     |     {     |     (     |     [     |          |     ]     |     )     |     }     |     \     |     |     |
+     &kp GRAVE   &kp FSLH    &kp LBRC     &kp LPAR   &kp LBKT               &kp RBKT     &kp RPAR   &kp RBRC    &kp BSLH    &kp PIPE
+// |     ~     |     +     |     =     |     <     |     :     |          |     ;     |     >     |     ?     |     _     |     -     |
+     &kp TILDE   &kp PLUS    &kp EQUAL    &kp LT     &kp COLON              &kp SEMI      &kp GT    &kp QMARK   &kp UNDER   &kp MINUS
 //                         |           |           |           |          |||||||||||||           |           |
                                &none       &none       &none                  &trans      &none       &none
 // ------------------------------------------------------------------------------------------------------------------------------------
