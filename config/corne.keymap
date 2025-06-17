@@ -133,7 +133,7 @@
 // |  Hyper Z  |  Hyper X  |  Hyper C  |  Hyper V  |  Hyper B  |          |  Hyper N  |  Hyper M  |  Hyper ,  |  Hyper .  |  Hyper '  |
      &kp MEH(Z)  &kp MEH(X)  &kp MEH(C)  &kp MEH(V)  &kp MEH(B)             &kp MEH(N)  &kp MEH(M) &kp MEH(COMMA) &kp MEH(DOT) &kp MEH(SQT)
 //                         |  OPTIONS  |           |    GUI    |          |           |           |||||||||||||
-                          &lst OPTIONS F25 NONE     &none     &kp LGUI                 &none       &none      &trans
+                          &mo OPTIONS     &none     &kp LGUI                 &none       &none      &trans
 // ------------------------------------------------------------------------------------------------------------------------------------
             >;
         };
