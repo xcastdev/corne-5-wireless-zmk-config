@@ -20,7 +20,7 @@
     };
 
     macros {
-        l_sig: layer_signal {
+        l_sig: l_sig {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -135,7 +135,7 @@
 // |  Hyper Z  |  Hyper X  |  Hyper C  |  Hyper V  |  Hyper B  |          |  Hyper N  |  Hyper M  |  Hyper ,  |  Hyper .  |  Hyper '  |
      &kp MEH(Z)  &kp MEH(X)  &kp MEH(C)  &kp MEH(V)  &kp MEH(B)             &kp MEH(H)  &kp MEH(M) &kp MEH(COMMA) &kp MEH(DOT) &kp MEH(SQT)
 //                         |           |           |    GUI    |          |           |           |||||||||||||
-                          &l_sig OPTIONS F25  &none     &kp LGUI                 &none       &none      &trans
+                          &l_sig OPTIONS F25   &none     &kp LGUI                 &none       &none      &trans
 // ------------------------------------------------------------------------------------------------------------------------------------
             >;
         };
