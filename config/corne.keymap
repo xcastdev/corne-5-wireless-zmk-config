@@ -52,10 +52,10 @@
             display-name = "Numbers";
             bindings = <
 // ------------------------------------------------------------------------------------------------------------------------------------
-// |     6     |     7     |     8     |     9     |    10     |          |           |           |           |           |           |
-      &kp N6      &kp N7      &kp N8      &kp N9      &kp N10                 &none       &none       &none       &none       &none
-// |     1     |     2     |     3     |     4     |     5     |          |     6     |     7     |     8     |     9     |    10     |
-       &kp N1     &kp N2      &kp N3      &kp N4      &kp N5                  &kp N6      &kp N7      &kp N8      &kp N9     &kp N10
+// |     6     |     7     |     8     |     9     |     0     |          |           |           |           |           |           |
+      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0                  &none       &none       &none       &none       &none
+// |     1     |     2     |     3     |     4     |     5     |          |     6     |     7     |     8     |     9     |     0     |
+       &kp N1     &kp N2      &kp N3      &kp N4      &kp N5                  &kp N6      &kp N7      &kp N8      &kp N9     &kp N0
 // |           |           |           |           |           |          |           |           |           |           |           |
        &none       &none       &none       &none       &none                  &none       &none       &none       &none       &none
 //                         | Tog Layer |           |||||||||||||          |           |           |           |

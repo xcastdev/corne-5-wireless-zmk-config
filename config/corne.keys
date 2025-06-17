@@ -24,9 +24,9 @@ HOME LAYER
 
  MEDIA/NAVIGATION LAYER
  ------------------------------------------------------------------------------------------------------------------------------------
- |  FST FWD  |  VOL DWN  |   MUTE    |   VOL UP  |           |          |           |  PG DWN   |   PG UP   |           |           |
+ |           |  VOL DWN  |   MUTE    |   VOL UP  |           |          |           |  PG DWN   |   PG UP   |           |           |
  |           |   PREV    | PLY/PAUSE |   NEXT    |           |          |   LEFT    |   DOWN    |    UP     |   RIGHT   |           |
- |   REWIND  |  SK BKWD  |           |   SK FWD  |           |          |           |   Home    |    End    |           |           |
+ |           | [S] PREV  |[S] PLY/PSE| [S] NEXT  |           |          |           |   Home    |    End    |           |           |
  |                       |           |           |           |          |           |||||||||||||           |                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
