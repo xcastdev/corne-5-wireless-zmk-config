@@ -20,7 +20,7 @@
     };
 
     macros {
-        ls: layer_signal {
+        l_sig: layer_signal {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -53,7 +53,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&ls>, <&kp>;
+            bindings = <&l_sig>, <&kp>;
         };
     };
 
@@ -135,7 +135,7 @@
 // |  Hyper Z  |  Hyper X  |  Hyper C  |  Hyper V  |  Hyper B  |          |  Hyper N  |  Hyper M  |  Hyper ,  |  Hyper .  |  Hyper '  |
      &kp MEH(Z)  &kp MEH(X)  &kp MEH(C)  &kp MEH(V)  &kp MEH(B)             &kp MEH(H)  &kp MEH(M) &kp MEH(COMMA) &kp MEH(DOT) &kp MEH(SQT)
 //                         |           |           |    GUI    |          |           |           |||||||||||||
-                          &ls OPTIONS F25  &none     &kp LGUI                 &none       &none      &trans
+                          &l_sig OPTIONS F25  &none     &kp LGUI                 &none       &none      &trans
 // ------------------------------------------------------------------------------------------------------------------------------------
             >;
         };
