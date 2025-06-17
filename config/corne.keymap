@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-
 #define DEFAULT     0
 #define NUMBERS     1
 #define SYMBOLS     2
@@ -13,14 +12,13 @@
 
 #define MEH(code) LS(LA(LC(code)))
 
-
 / {
     chosen {
       zmk,matrix_transform = &five_column_transform;
     };
 
     macros {
-        l_sig: l_sig {
+        layer_signal: layer_signal {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
@@ -53,7 +51,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&l_sig>, <&kp>;
+            bindings = <&layer_signal>, <&kp>;
         };
     };
 
@@ -133,9 +131,9 @@
 // |  Hyper A  |  Hyper S  |  Hyper D  |  Hyper F  |  Hyper G  |          |  Hyper H  |  Hyper J  |  Hyper K  |  Hyper L  |  Hyper ;  |
      &kp MEH(A)  &kp MEH(S)  &kp MEH(D)  &kp MEH(F)  &kp MEH(G)             &kp MEH(H)  &kp MEH(J)  &kp MEH(K)  &kp MEH(L)  &kp MEH(COLON)
 // |  Hyper Z  |  Hyper X  |  Hyper C  |  Hyper V  |  Hyper B  |          |  Hyper N  |  Hyper M  |  Hyper ,  |  Hyper .  |  Hyper '  |
-     &kp MEH(Z)  &kp MEH(X)  &kp MEH(C)  &kp MEH(V)  &kp MEH(B)             &kp MEH(H)  &kp MEH(M) &kp MEH(COMMA) &kp MEH(DOT) &kp MEH(SQT)
-//                         |           |           |    GUI    |          |           |           |||||||||||||
-                          &l_sig OPTIONS F25   &none     &kp LGUI                 &none       &none      &trans
+     &kp MEH(Z)  &kp MEH(X)  &kp MEH(C)  &kp MEH(V)  &kp MEH(B)             &kp MEH(N)  &kp MEH(M) &kp MEH(COMMA) &kp MEH(DOT) &kp MEH(SQT)
+//                         |  OPTIONS  |           |    GUI    |          |           |           |||||||||||||
+                          &lst OPTIONS F25 NONE     &none     &kp LGUI                 &none       &none      &trans
 // ------------------------------------------------------------------------------------------------------------------------------------
             >;
         };
