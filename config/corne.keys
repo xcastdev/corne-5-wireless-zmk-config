@@ -3,7 +3,7 @@ HOME LAYER
  |     Q     |     W     |     E     |     R     |     T     |          |     Y     |     U     |     I     |     O     |     P     |
  |   A(GUI)  |   S(ALT)  |  D(CTRL)  |  F(SHFT)  |     G     |          |     H     |  J(SHFT)  |  K(CTRL)  |   L(ALT)  |   ;(GUI)  |
  |     Z     |     X     |     C     |     V     |     B     |          |     N     |     M     |     ,     |     .     |     /     |
- |                       |ESC(Macro) |  TAB(WM)  | SPC(Num)  |          | ENT(Symb) | BKSP(Navi)| DEL(Opts) |                       |
+ |                       |  ESC(WM)  |TAB(Symbol)|  SPC(Num) |          | ENT(M/Nav)|    BKSP   | DEL(Macro)|                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
  NUMBERS LAYER
@@ -19,7 +19,7 @@ HOME LAYER
  |     !     |     @     |    /#     |     $     |     %     |          |     ^     |     &     |     *     |     (     |     )     |
  |     `     |     /     |     {     |     (     |     [     |          |     ]     |     )     |     }     |     \     |     |     |
  |     ~     |     <     |     +     |     =     |     :     |          |     ;     |     _     |     -     |     >     |     ?     |
- |                       |           |           |           |          |||||||||||||           |           |                       |
+ |                       |           |||||||||||||           |          |           |           |           |                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
  MEDIA/NAVIGATION LAYER
@@ -27,7 +27,7 @@ HOME LAYER
  |           |  VOL DWN  |   MUTE    |   VOL UP  |           |          |           |  PG DWN   |   PG UP   |           |           |
  |           |   PREV    | PLY/PAUSE |   NEXT    |           |          |   LEFT    |   DOWN    |    UP     |   RIGHT   |           |
  |           | [S] PREV  |[S] PLY/PSE| [S] NEXT  |           |          |           |   Home    |    End    |           |           |
- |                       |           |           |           |          |           |||||||||||||           |                       |
+ |                       |           |           |           |          |||||||||||||           |           |                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
  MACRO LAYER
@@ -35,7 +35,7 @@ HOME LAYER
  |  Hyper Q  |  Hyper W  |  Hyper E  |  Hyper R  |  Hyper T  |          |  Hyper Y  |  Hyper U  |  Hyper I  |  Hyper O  |  Hyper p  |
  |  Hyper A  |  Hyper S  |  Hyper D  |  Hyper F  |  Hyper G  |          |  Hyper H  |  Hyper J  |  Hyper K  |  Hyper L  |  Hyper ;  |
  |  Hyper Z  |  Hyper X  |  Hyper C  |  Hyper V  |  Hyper B  |          |  Hyper N  |  Hyper M  |  Hyper ,  |  Hyper .  |  Hyper '  |
- |                       |           |           |    GUI    |          |           |           |||||||||||||                       |
+ |                       |  Options  |           |    GUI    |          |           |           |||||||||||||                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
  WINDOW MANAGEMENT LAYER
@@ -43,7 +43,7 @@ HOME LAYER
  |   DIS 6   |   DIS 7   |   DIS 8   |   DIS 9   |   DIS 10  |          |           | DIS FOC P | DIS FOC N |           |           |
  |   DIS 1   |   DIS 2   |   DIS 3   |   DIS 4   |   DIS 5   |          | WIN FOC L | WIN FOC D | WIN FOC U | WIN FOC R |           |
  |   Reset   |  StatBar  | Fullscreen|   Mode    |  Restart  |          | ROT WINS  | SWP WIN P | SWP WIN N |   FLIP X  |   FLIP Y  |
- |                       |           |||||||||||||           |          |   SHIFT   |   CONTRL  |           |                       |
+ |                       |||||||||||||           |           |          |   SHIFT   |   CONTRL  |           |                       |
  ------------------------------------------------------------------------------------------------------------------------------------
 
  OPTIONS LAYER
@@ -51,5 +51,5 @@ HOME LAYER
  |           |           |           |           |           |          |           |           |           |           |           |
  |    BT1    |    BT2    |    BT3    |    BT4    |   BT CLR  |          |           |           |           |           |           |
  |           |           |           |           |           |          |           |           |           |           |           |
- |                       |||||||||||||           |           |          |           |           |           |                       |
+ |                       |||||||||||||           |           |          |           |           |||||||||||||                       |
  ------------------------------------------------------------------------------------------------------------------------------------
